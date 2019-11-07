@@ -1,0 +1,46 @@
+
+package ingredients;
+
+
+public class Ingredients {
+
+    
+    public static void main(String[] args) {
+        
+    }
+    private String name;
+    
+    private double prise;
+
+    public Ingredients(String name, double prise) {
+        this.name = name;
+        this.prise = prise;
+    }
+
+    public Ingredients() {
+    }
+    
+
+    
+    public double getPrise() {
+        return prise;
+    }
+
+    
+    public void setPrise(double prise) {
+        this.prise = prise;
+    }
+
+
+    
+    public String getName() {
+        return name;
+    }
+
+    
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    
+}
